@@ -5,11 +5,14 @@
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "npm start"
+    "bootstrap": "directus bootstrap"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/prapti1112/picdop_db/issues"
+  },
   "dependencies": {
     "directus": "^9.4.3",
     "sqlite3": "^5.0.2"
