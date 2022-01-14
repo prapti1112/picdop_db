@@ -3,12 +3,9 @@
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
-  "engines": {
-    "node": "14.17.6"
-  },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "index.js"
+    "start": "npm start"
   },
   "keywords": [],
   "author": "",
@@ -16,5 +13,8 @@
   "dependencies": {
     "directus": "^9.4.3",
     "sqlite3": "^5.0.2"
+  },
+  "engines": {
+    "node": "14.17.6"
   }
 }
